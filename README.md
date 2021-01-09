@@ -1,5 +1,7 @@
 # mnotes
 This is an attempt to use the markdown editor from https://github.com/marktext/marktext/tree/develop/src/muya in an actual web app. That link has the most up to date version.
+https://github.com/marktext/muya is a broken version, don't bother trying to get it working (Jan, 8, 2021)
+https://github.com/Jocs/muya-example should work, but is a bit outdated
 
 Steps to get it running
 - `npm i` in root and inside `muya`
