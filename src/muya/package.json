@@ -1,0 +1,44 @@
+{
+  "name": "muya",
+  "version": "0.1.2",
+  "description": "A browser based markdown editor that powers Mark Text",
+  "main": "dist/muya.min.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marktext/muya.git"
+  },
+  "keywords": [
+    "markdown",
+    "editor",
+    "brower"
+  ],
+  "author": "ransixi@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marktext/muya/issues"
+  },
+  "homepage": "https://github.com/marktext/muya#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dompurify": "^2.0.11",
+    "element-resize-detector": "^1.2.1",
+    "execall": "^2.0.0",
+    "fast-diff": "^1.2.0",
+    "flowchart.js": "^1.15.0",
+    "fuzzaldrin": "^2.1.0",
+    "github-markdown-css": "^4.0.0",
+    "html-tags": "^3.1.0",
+    "joplin-turndown-plugin-gfm": "^1.0.12",
+    "katex": "^0.12.0",
+    "ot-json1": "^0.2.4",
+    "popper.js": "^1.16.1",
+    "prismjs": "^1.23.0",
+    "snabbdom": "^0.7.3",
+    "snabbdom-to-html": "^6.0.0",
+    "turndown": "^7.0.0",
+    "vega-embed": "^6.15.0"
+  }
+}

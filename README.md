@@ -1,3 +1,16 @@
+# mnotes
+This is an attempt to use the markdown editor from https://github.com/marktext/marktext/tree/develop/src/muya in an actual web app. That link has the most up to date version.
+
+Steps to get it running
+- `npm i` in root and inside `muya`
+- inside `muya/node_modules` change `katex` entrance file to `dist/katex.mjs` b/c original won't compile ???
+
+Things I did to modify muya
+- rename usePluginAddRules import in `./lib/utils/importMarkdown` b/c react hook name rule conflict
+- temporarily comment out render imports in `./lib/renders/index.js`
+  - i don't really need this functionality and i want to get the basic stuff working first
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
