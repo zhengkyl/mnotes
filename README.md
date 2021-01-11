@@ -3,9 +3,18 @@ This is an attempt to use the markdown editor from https://github.com/marktext/m
 https://github.com/marktext/muya is a broken version, don't bother trying to get it working (Jan, 8, 2021)
 https://github.com/Jocs/muya-example should work, but is a bit outdated
 
-Steps to get it running
+TODO
+- [ ] fonts, none being used currently
+- [ ] everything
+
+Steps I have taken to get it running
 - `npm i` in root and inside `muya`
 - inside `muya/node_modules` change `katex` entrance file to `dist/katex.mjs` b/c original won't compile ???
+- manually add css files from https://github.com/marktext/marktext/tree/develop/src/renderer into `src/styles`
+  - these stylesheets manage the font and code blocks, i have slightly changed names for my own clarity
+  - i chose to only take the One Dark themed css
+  - still incomplete, weird missing styles everywhere (code block text shadow is strange)
+
 
 Things I did to modify muya
 - rename usePluginAddRules import in `./lib/utils/importMarkdown` b/c react hook name rule conflict
